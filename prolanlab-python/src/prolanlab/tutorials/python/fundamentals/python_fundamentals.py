@@ -1,3 +1,8 @@
+"""
+Python Fundamentals - Basic Python programming concepts and syntax
+"""
+
+
 class PythonFundamentals:
     def __init__(self):
         pass

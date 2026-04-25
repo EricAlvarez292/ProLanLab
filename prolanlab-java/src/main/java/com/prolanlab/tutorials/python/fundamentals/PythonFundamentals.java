@@ -3,6 +3,9 @@ package com.prolanlab.tutorials.python.fundamentals;
 import com.prolanlab.Main;
 import java.util.Scanner;
 
+/**
+ * Python Fundamentals - Basic Python concepts and syntax
+ */
 public class PythonFundamentals {
     private final Scanner scanner = Main.getScanner();
 

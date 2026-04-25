@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Programming Language Learning Lab - Console Application
+Main entry point for the tutorial program
+"""
 
 import sys
 import os

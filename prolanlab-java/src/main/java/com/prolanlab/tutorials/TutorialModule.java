@@ -6,6 +6,9 @@ import com.prolanlab.Main;
 
 import java.util.Scanner;
 
+/**
+ * Tutorial Module - Main controller for all tutorials
+ */
 public class TutorialModule {
     private final Scanner scanner = Main.getScanner();
     

@@ -86,7 +86,7 @@ A comprehensive console-based tutorial system for learning programming languages
 ```cmd
 # Clone or download the project
 git clone <repository-url>
-cd prolanlab
+cd prolanlab-java
 
 # Run the program (compiles and starts automatically)
 run.bat
@@ -95,7 +95,7 @@ run.bat
 #### Method 2: Manual Compilation
 ```cmd
 # Navigate to project directory
-cd prolanlab
+cd prolanlab-java
 
 # Compile all Java files
 javac -d out -cp src/main/java src/main/java/com/prolanlab/*.java src/main/java/com/prolanlab/**/*.java src/main/java/com/prolanlab/**/**/*.java
@@ -107,7 +107,7 @@ java -cp out com.prolanlab.Main
 #### Method 3: PowerShell (Alternative)
 ```powershell
 # Compile and run in PowerShell
-cd prolanlab
+cd prolanlab-java
 javac -d out -sourcepath src/main/java src/main/java/com/prolanlab/Main.java
 java -cp out com.prolanlab.Main
 ```
@@ -118,7 +118,7 @@ java -cp out com.prolanlab.Main
 ```bash
 # Clone or download the project
 git clone <repository-url>
-cd prolanlab
+cd prolanlab-java
 
 # Make script executable and run
 chmod +x run.sh
@@ -128,7 +128,7 @@ chmod +x run.sh
 #### Method 2: Manual Compilation
 ```bash
 # Navigate to project directory
-cd prolanlab
+cd prolanlab-java
 
 # Compile all Java files
 javac -d out -cp src/main/java $(find src/main/java -name "*.java")

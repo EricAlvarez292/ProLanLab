@@ -1,5 +1,8 @@
 package com.prolanlab.tutorials.java.fundamentals;
 
+/**
+ * Java Fundamentals - Basic Java programming concepts and syntax
+ */
 public class JavaFundamentals {
     
     /**

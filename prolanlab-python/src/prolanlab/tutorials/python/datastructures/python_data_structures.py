@@ -1,3 +1,8 @@
+"""
+Python Data Structures - Advanced collections and data organization
+"""
+
+
 class PythonDataStructures:
     def __init__(self):
         pass

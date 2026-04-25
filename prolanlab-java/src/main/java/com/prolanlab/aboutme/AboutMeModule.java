@@ -1,5 +1,8 @@
 package com.prolanlab.aboutme;
 
+/**
+ * About Me Module - Information about the Programming Language Lab
+ */
 public class AboutMeModule {
 
     public void start() {
