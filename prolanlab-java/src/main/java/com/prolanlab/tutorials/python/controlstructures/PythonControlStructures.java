@@ -3,11 +3,6 @@ package com.prolanlab.tutorials.python.controlstructures;
 import java.util.Scanner;
 import com.prolanlab.Main;
 
-/**
- * PythonControlStructures - Control structures and operators tutorial for Python
- * Contains methods extracted from PythonTutorial.java (cases 16-32)
- * Includes operators, strings, math, and boolean operations in Python
- */
 public class PythonControlStructures {
     private final Scanner scanner = Main.getScanner();
     

@@ -1,8 +1,5 @@
 package com.prolanlab.quizzes;
 
-/**
- * Quiz Module - Interactive programming quizzes (placeholder for future development)
- */
 public class QuizModule {
 
     public void start() {

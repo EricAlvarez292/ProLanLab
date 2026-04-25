@@ -3,10 +3,6 @@ package com.prolanlab.tutorials.python.datastructures;
 import com.prolanlab.Main;
 import java.util.Scanner;
 
-/**
- * PythonDataStructures - Data structures tutorial for Python
- * Contains methods extracted from PythonTutorial.java (methods 52-60)
- */
 public class PythonDataStructures {
     
     /**

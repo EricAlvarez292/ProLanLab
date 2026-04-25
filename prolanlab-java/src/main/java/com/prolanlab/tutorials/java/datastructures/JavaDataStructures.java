@@ -1,9 +1,5 @@
 package com.prolanlab.tutorials.java.datastructures;
 
-/**
- * JavaDataStructures - Data structures tutorial for Java
- * Contains methods extracted from JavaTutorial.java (cases 28-41)
- */
 public class JavaDataStructures {
     
     /**

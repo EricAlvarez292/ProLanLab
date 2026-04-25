@@ -3,10 +3,6 @@ package com.prolanlab.tutorials.java.controlstructures;
 import java.util.Scanner;
 import com.prolanlab.Main;
 
-/**
- * JavaControlStructures - Control structures tutorial for Java
- * Contains methods extracted from JavaTutorial.java (cases 9-16)
- */
 public class JavaControlStructures {
     private final Scanner scanner = Main.getScanner();
     

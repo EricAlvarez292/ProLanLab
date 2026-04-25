@@ -9,9 +9,6 @@ import com.prolanlab.Main;
 
 import java.util.Scanner;
 
-/**
- * Python Tutorial Controller - Main controller for Python tutorials
- */
 public class PythonTutorialController {
     private final Scanner scanner = Main.getScanner();
     private final PythonFundamentals fundamentals = new PythonFundamentals();

@@ -2,10 +2,6 @@ package com.prolanlab.tutorials.python.classesandoop;
 
 import com.prolanlab.Main;
 
-/**
- * Python Classes and Object-Oriented Programming (OOP) Tutorial
- * Contains methods covering Python OOP concepts, classes, objects, and related topics
- */
 public class PythonClassesAndOOP {
     
     /**

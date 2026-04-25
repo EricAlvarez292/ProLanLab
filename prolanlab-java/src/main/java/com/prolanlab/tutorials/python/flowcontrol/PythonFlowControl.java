@@ -3,11 +3,6 @@ package com.prolanlab.tutorials.python.flowcontrol;
 import java.util.Scanner;
 import com.prolanlab.Main;
 
-/**
- * PythonFlowControl - Flow control and collections tutorial for Python
- * Contains methods extracted from PythonTutorial.java (cases 33-42)
- * Includes if statements, loops, collections (tuples, lists, sets, dictionaries)
- */
 public class PythonFlowControl {
     private final Scanner scanner = Main.getScanner();
     

@@ -8,9 +8,6 @@ import com.prolanlab.Main;
 
 import java.util.Scanner;
 
-/**
- * Java Tutorial Controller - Main controller for Java tutorials
- */
 public class JavaTutorialController {
     private final Scanner scanner = Main.getScanner();
     private final JavaFundamentals fundamentals = new JavaFundamentals();

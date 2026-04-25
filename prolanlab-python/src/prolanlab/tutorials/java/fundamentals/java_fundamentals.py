@@ -1,8 +1,3 @@
-"""
-Java Fundamentals - Basic Java programming concepts and syntax
-"""
-
-
 class JavaFundamentals:
     def __init__(self):
         pass

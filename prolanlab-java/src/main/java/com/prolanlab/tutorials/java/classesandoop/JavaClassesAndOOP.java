@@ -1,9 +1,5 @@
 package com.prolanlab.tutorials.java.classesandoop;
 
-/**
- * Java Classes and Object-Oriented Programming (OOP) Tutorial
- * Contains methods covering OOP concepts, classes, objects, and related topics
- */
 public class JavaClassesAndOOP {
     
     /**

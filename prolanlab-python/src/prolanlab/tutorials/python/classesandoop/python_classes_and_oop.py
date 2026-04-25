@@ -1,8 +1,3 @@
-"""
-Python Classes and OOP - Object-Oriented Programming in Python
-"""
-
-
 class PythonClassesAndOOP:
     def __init__(self):
         pass

@@ -5,10 +5,6 @@ import com.prolanlab.tutorials.TutorialModule;
 import com.prolanlab.quizzes.QuizModule;
 import com.prolanlab.aboutme.AboutMeModule;
 
-/**
- * Programming Language Learning Lab - Console Application
- * Main entry point for the tutorial program
- */
 public class Main {
     private static final Scanner scanner = new Scanner(System.in);
     private static final TutorialModule tutorialModule = new TutorialModule();
