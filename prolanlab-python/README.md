@@ -163,7 +163,7 @@ chmod +x main.py
 
 ## Learning Modules
 
-### Java Tutorial (42 Comprehensive Topics)
+### Java Tutorial (25 Beginner-Focused Topics)
 
 **Fundamentals (8 topics):**
 - Java Introduction & Concepts
@@ -175,46 +175,32 @@ chmod +x main.py
 - Type Casting & Conversion
 - Operators & Expressions
 
-**Control Structures (8 topics):**
+**Control Structures (7 topics):**
 - String manipulation
 - Math operations
 - Boolean logic
 - Conditional statements (if-else)
-- Switch statements
 - While loops
 - For loops  
 - Break & Continue
 
-**Classes & OOP (11 topics):**
+**Basic OOP (7 topics):**
 - Object-Oriented Programming concepts
+- Classes & Objects
+- Attributes
 - Methods & Functions
 - Constructors & Initialization
-- Method Overloading
-- Inheritance & Extends
-- Polymorphism & Overriding
-- Encapsulation & Access Modifiers
-- Abstraction & Abstract Classes
-- Static members
-- Final keyword
-- Inner Classes
+- Basic Inheritance
+- Access Modifiers
 
-**Data Structures (14 topics):**
-- Data structures overview
-- Arrays & Multi-dimensional Arrays
+**Essential Collections (3 topics):**
+- Arrays & Basic Operations
 - ArrayList & Dynamic Arrays
-- HashMap & Key-Value Storage
-- HashSet & Unique Collections
-- LinkedList & Node-based Storage
-- Stack & LIFO Operations
-- Queue & FIFO Operations
-- Tree structures
-- Heap data structure
-- Graph representations
-- Algorithm implementations
+- Basic Collections Overview
 
-### Python Tutorial (61 Comprehensive Topics)
+### Python Tutorial (25 Beginner-Focused Topics)
 
-**Fundamentals (15 topics):**
+**Fundamentals (8 topics):**
 - Python Introduction & Philosophy
 - Syntax & Indentation Rules
 - Statements & Execution
@@ -223,67 +209,29 @@ chmod +x main.py
 - Comments & Documentation
 - Variables & Assignment
 - Multiple value assignments
-- Variable output techniques
-- Global vs Local scope
-- Identifiers & Naming conventions
-- Constants & Immutability
-- Data types overview
-- Number types (int, float, complex)
-- Type casting & Conversion
 
-**Control Structures (17 topics):**
+**Control Structures (8 topics):**
 - Operators overview
 - Arithmetic operations
-- Assignment operators
 - Comparison operators  
 - Logical operators (and, or, not)
-- Identity operators (is, is not)
-- Membership operators (in, not in)
-- Bitwise operations
-- Operator precedence rules
 - String creation & manipulation
-- String slicing techniques
-- String concatenation
-- Format strings (f-strings)
-- Escape characters
 - String methods
 - Math module & functions
 - Boolean operations
 
-**Flow Control & Collections (10 topics):**
+**Flow Control & Collections (7 topics):**
 - Conditional statements (if-elif-else)
 - While loops & control
 - For loops & iteration
-- Nested loop structures
-- For-each loop patterns
 - Break & Continue statements
-- Tuples & immutable sequences
 - Lists & mutable sequences
-- Sets & unique collections
 - Dictionaries & key-value pairs
+- Tuples & immutable sequences
 
-**Classes & OOP (9 topics):**
-- Object-Oriented Programming principles
+**Basic OOP (2 topics):**
 - Classes & Objects creation
-- Self parameter & instance reference
-- Methods (instance, class, static)
-- Properties & decorators
-- Inheritance & super()
-- Polymorphism & duck typing
-- Encapsulation & private attributes
-- Inner/Nested classes
-
-**Advanced Topics (10 topics):**
-- Advanced list operations
-- Advanced dictionary techniques
-- Advanced set operations
-- Advanced tuple usage
-- List/Dict/Set comprehensions
-- Generators & yield expressions
-- Iterators & iteration protocol
-- Decorators & function wrapping
-- Error handling & exceptions
-- Modules & package system
+- Basic Inheritance
 
 ## Project Structure
 
