@@ -8,9 +8,6 @@ import com.prolanlab.Main;
 
 import java.util.Scanner;
 
-/**
- * Java Tutorial Controller - Main controller for Java tutorials
- */
 public class JavaTutorialController {
     private final Scanner scanner = Main.getScanner();
     private final JavaFundamentals fundamentals = new JavaFundamentals();
@@ -66,97 +63,49 @@ public class JavaTutorialController {
                     controlStructures.showJavaIfElse();
                     break;
                 case 13:
-                    controlStructures.showJavaSwitch();
-                    break;
-                case 14:
                     controlStructures.showJavaWhileLoop();
                     break;
-                case 15:
+                case 14:
                     controlStructures.showJavaForLoop();
                     break;
-                case 16:
+                case 15:
                     controlStructures.showJavaBreakContinue();
                     break;
                     
-                // Classes & OOP (17-27)
-                case 17:
+                // Basic OOP (16-22)
+                case 16:
                     classesAndOOP.showJavaOOP();
                     break;
-                case 18:
+                case 17:
                     classesAndOOP.showJavaClassesObjects();
                     break;
-                case 19:
+                case 18:
                     classesAndOOP.showJavaAttributes();
                     break;
-                case 20:
+                case 19:
                     classesAndOOP.showJavaMethodsOOP();
                     break;
-                case 21:
+                case 20:
                     classesAndOOP.showJavaConstructors();
                     break;
-                case 22:
-                    classesAndOOP.showJavaThisKeyword();
-                    break;
-                case 23:
-                    classesAndOOP.showJavaModifiers();
-                    break;
-                case 24:
+                case 21:
                     classesAndOOP.showJavaInheritance();
                     break;
-                case 25:
-                    classesAndOOP.showJavaPolymorphism();
-                    break;
-                case 26:
-                    classesAndOOP.showJavaEncapsulation();
-                    break;
-                case 27:
-                    classesAndOOP.showJavaInnerClasses();
+                case 22:
+                    classesAndOOP.showJavaModifiers();
                     break;
                     
-                // Data Structures (28-41)
-                case 28:
-                    dataStructures.showJavaDataStructures();
-                    break;
-                case 29:
-                    dataStructures.showJavaCollections();
-                    break;
-                case 30:
-                    dataStructures.showJavaList();
-                    break;
-                case 31:
+                // Essential Collections (23-25)
+                case 23:
                     dataStructures.showJavaArrays();
                     break;
-                case 32:
+                case 24:
                     dataStructures.showJavaArrayList();
                     break;
-                case 33:
-                    dataStructures.showJavaLinkedList();
+                case 25:
+                    dataStructures.showJavaCollections();
                     break;
-                case 34:
-                    dataStructures.showJavaSet();
-                    break;
-                case 35:
-                    dataStructures.showJavaHashSet();
-                    break;
-                case 36:
-                    dataStructures.showJavaLinkedHashSet();
-                    break;
-                case 37:
-                    dataStructures.showJavaMap();
-                    break;
-                case 38:
-                    dataStructures.showJavaHashMap();
-                    break;
-                case 39:
-                    dataStructures.showJavaLinkedHashMap();
-                    break;
-                case 40:
-                    dataStructures.showJavaIterator();
-                    break;
-                case 41:
-                    dataStructures.showJavaAlgorithms();
-                    break;
-                case 42:
+                case 26:
                     System.out.println("Returning to tutorial menu...");
                     inJavaTutorial = false;
                     break;
@@ -164,7 +113,7 @@ public class JavaTutorialController {
                     System.out.println("Invalid option. Please try again.");
             }
             
-            if (inJavaTutorial && choice != 42) {
+            if (inJavaTutorial && choice != 26) {
                 System.out.println("\n" + "=".repeat(75));
                 System.out.println("Press Enter to return to Java tutorial menu...");
                 scanner.nextLine();
@@ -174,7 +123,7 @@ public class JavaTutorialController {
     
     private void displayJavaMenu() {
         System.out.println("\n" + "=".repeat(75));
-        System.out.println("                    [J] JAVA TUTORIAL");
+        System.out.println("                    [J] JAVA TUTORIAL (Beginner Focus)");
         System.out.println("=".repeat(75));
         System.out.println(">> FUNDAMENTALS");
         System.out.println(" 1. Intro and Concepts     2. Syntax");
@@ -185,29 +134,22 @@ public class JavaTutorialController {
         System.out.println(">> CONTROL STRUCTURES");  
         System.out.println(" 9. Strings               10. Math");
         System.out.println("11. Booleans              12. If-Else");
-        System.out.println("13. Switch                14. While Loop");
-        System.out.println("15. For Loop              16. Break/Continue");
+        System.out.println("13. While Loop            14. For Loop");
+        System.out.println("15. Break/Continue");
         System.out.println();
-        System.out.println(">> CLASSES & OOP");
-        System.out.println("17. OOP                   18. Classes/Objects");
-        System.out.println("19. Attributes            20. Methods");
-        System.out.println("21. Constructors          22. this Keyword");
-        System.out.println("23. Modifiers             24. Inheritance");
-        System.out.println("25. Polymorphism          26. Encapsulation");
-        System.out.println("27. Inner Classes");
+        System.out.println(">> BASIC OOP");
+        System.out.println("16. OOP Concepts          17. Classes/Objects");
+        System.out.println("18. Attributes            19. Methods");
+        System.out.println("20. Constructors          21. Basic Inheritance");
+        System.out.println("22. Access Modifiers");
         System.out.println();
-        System.out.println(">> DATA STRUCTURES");
-        System.out.println("28. Data Structures       29. Collections");
-        System.out.println("30. List                  31. Arrays");
-        System.out.println("32. ArrayList             33. LinkedList");
-        System.out.println("34. Set                   35. HashSet");
-        System.out.println("36. LinkedHashSet         37. Map");
-        System.out.println("38. HashMap               39. LinkedHashMap");
-        System.out.println("40. Iterator              41. Algorithms");
+        System.out.println(">> ESSENTIAL COLLECTIONS");
+        System.out.println("23. Arrays                24. ArrayList");
+        System.out.println("25. Basic Collections");
         System.out.println();
-        System.out.println("42. << Back to Tutorial Menu");
+        System.out.println("26. << Back to Tutorial Menu");
         System.out.println("=".repeat(75));
-        System.out.print("Enter your choice (1-42): ");
+        System.out.print("Enter your choice (1-26): ");
     }
     
     private int getUserChoice() {

@@ -1,7 +1,3 @@
-"""
-Java Tutorial Controller - Main controller for Java tutorials
-"""
-
 from prolanlab.tutorials.java.fundamentals.java_fundamentals import JavaFundamentals
 from prolanlab.tutorials.java.controlstructures.java_control_structures import JavaControlStructures
 from prolanlab.tutorials.java.classesandoop.java_classes_and_oop import JavaClassesAndOOP
@@ -40,7 +36,7 @@ class JavaTutorialController:
             elif choice == 8:
                 self.fundamentals.show_java_operators()
                 
-            # Control Structures (9-16)
+            # Control Structures (9-15)
             elif choice == 9:
                 self.control_structures.show_java_strings()
             elif choice == 10:
@@ -50,112 +46,72 @@ class JavaTutorialController:
             elif choice == 12:
                 self.control_structures.show_java_if_else()
             elif choice == 13:
-                self.control_structures.show_java_switch()
-            elif choice == 14:
                 self.control_structures.show_java_while_loop()
-            elif choice == 15:
+            elif choice == 14:
                 self.control_structures.show_java_for_loop()
-            elif choice == 16:
+            elif choice == 15:
                 self.control_structures.show_java_break_continue()
                 
-            # Classes & OOP (17-27)
-            elif choice == 17:
+            # Basic OOP (16-22)
+            elif choice == 16:
                 self.classes_and_oop.show_oop_concepts()
+            elif choice == 17:
+                self.classes_and_oop.show_java_classes_objects()
             elif choice == 18:
-                self.classes_and_oop.show_java_methods()
+                self.classes_and_oop.show_java_attributes()
             elif choice == 19:
-                self.classes_and_oop.show_java_constructors()
+                self.classes_and_oop.show_java_methods()
             elif choice == 20:
-                self.classes_and_oop.show_method_overloading()
+                self.classes_and_oop.show_java_constructors()
             elif choice == 21:
                 self.classes_and_oop.show_java_inheritance()
             elif choice == 22:
-                self.classes_and_oop.show_java_polymorphism()
+                self.classes_and_oop.show_java_modifiers()
+                
+            # Essential Collections (23-25)
             elif choice == 23:
-                self.classes_and_oop.show_java_encapsulation()
-            elif choice == 24:
-                self.classes_and_oop.show_java_abstraction()
-            elif choice == 25:
-                self.classes_and_oop.show_java_static()
-            elif choice == 26:
-                self.classes_and_oop.show_java_final()
-            elif choice == 27:
-                self.classes_and_oop.show_java_inner_classes()
-                
-            # Data Structures (28-41)
-            elif choice == 28:
-                self.data_structures.show_data_structures_overview()
-            elif choice == 29:
                 self.data_structures.show_java_arrays()
-            elif choice == 30:
-                self.data_structures.show_java_multi_arrays()
-            elif choice == 31:
+            elif choice == 24:
                 self.data_structures.show_java_arraylist()
-            elif choice == 32:
-                self.data_structures.show_java_hashmap()
-            elif choice == 33:
-                self.data_structures.show_java_hashset()
-            elif choice == 34:
-                self.data_structures.show_java_linkedlist()
-            elif choice == 35:
-                self.data_structures.show_java_stack()
-            elif choice == 36:
-                self.data_structures.show_java_queue()
-            elif choice == 37:
-                self.data_structures.show_java_tree()
-            elif choice == 38:
-                self.data_structures.show_java_heap()
-            elif choice == 39:
-                self.data_structures.show_java_graph()
-            elif choice == 40:
-                self.data_structures.show_algorithm_complexity()
-            elif choice == 41:
-                self.data_structures.show_java_collections_summary()
+            elif choice == 25:
+                self.data_structures.show_java_collections_basic()
                 
-            elif choice == 42:
+            elif choice == 26:
                 print("Returning to tutorial menu...")
                 in_java_tutorial = False
             else:
                 print("Invalid option. Please try again.")
                 
-            if in_java_tutorial and choice != 42:
+            if in_java_tutorial and choice != 26:
                 print("\nPress Enter to continue...")
                 input()
 
     def _display_java_menu(self):
         print("\n" + "=" * 75)
-        print("                    [JAVA] TUTORIALS")
+        print("                    [JAVA] TUTORIALS (Beginner Focus)")
         print("=" * 75)
         print("\n【FUNDAMENTALS】")
-        print(" 1. Java Introduction & Concepts       9. String Manipulation")
-        print(" 2. Java Syntax & Structure          10. Math Operations")
-        print(" 3. Output & Print Statements        11. Boolean Logic")
-        print(" 4. Comments & Documentation         12. Conditional Statements (if-else)")
-        print(" 5. Variables & Naming               13. Switch Statements")
-        print(" 6. Data Types & Primitives          14. While Loops")
-        print(" 7. Type Casting & Conversion        15. For Loops")
-        print(" 8. Operators & Expressions          16. Break & Continue")
-        print("\n【CLASSES & OOP】")
-        print("17. Object-Oriented Programming      25. Static Members")
-        print("18. Methods & Functions              26. Final Keyword")
-        print("19. Constructors & Initialization    27. Inner Classes")
-        print("20. Method Overloading")
-        print("21. Inheritance & Extends")
-        print("22. Polymorphism & Overriding")
-        print("23. Encapsulation & Access Modifiers")
-        print("24. Abstraction & Abstract Classes")
-        print("\n【DATA STRUCTURES】")
-        print("28. Data Structures Overview         35. Stack & LIFO Operations")
-        print("29. Arrays & Basic Operations        36. Queue & FIFO Operations")
-        print("30. Multi-dimensional Arrays        37. Tree Structures")
-        print("31. ArrayList & Dynamic Arrays      38. Heap Data Structure")
-        print("32. HashMap & Key-Value Storage     39. Graph Representations")
-        print("33. HashSet & Unique Collections    40. Algorithm Complexity")
-        print("34. LinkedList & Node-based         41. Collections Summary")
+        print(" 1. Java Introduction & Concepts       5. Variables & Naming")
+        print(" 2. Java Syntax & Structure            6. Data Types & Primitives")
+        print(" 3. Output & Print Statements          7. Type Casting & Conversion")
+        print(" 4. Comments & Documentation           8. Operators & Expressions")
+        print("\n【CONTROL STRUCTURES】")
+        print(" 9. String Manipulation               13. While Loops")
+        print("10. Math Operations                   14. For Loops")
+        print("11. Boolean Logic                     15. Break & Continue")
+        print("12. Conditional Statements (if-else)")
+        print("\n【BASIC OOP】")
+        print("16. Object-Oriented Programming       20. Constructors & Initialization")
+        print("17. Classes/Objects                   21. Basic Inheritance")
+        print("18. Attributes                        22. Access Modifiers")
+        print("19. Methods & Functions")
+        print("\n【ESSENTIAL COLLECTIONS】")
+        print("23. Arrays & Basic Operations         25. Basic Collections")
+        print("24. ArrayList & Dynamic Arrays")
         print()
-        print("42. << Back to Tutorial Menu")
+        print("26. << Back to Tutorial Menu")
         print("=" * 75)
-        print("Enter your choice (1-42): ", end="")
+        print("Enter your choice (1-26): ", end="")
 
     def _get_user_choice(self):
         try:

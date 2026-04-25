@@ -1,15 +1,15 @@
-# Programming Language Lab
+# Programming Language Lab - Java Version
 
-A comprehensive console-based tutorial system for learning programming languages with **103 interactive tutorials** covering Java and Python.
+A comprehensive console-based tutorial system for learning programming languages with **50 interactive tutorials** covering Java and Python (beginner-focused approach).
 
 ## Features
 
-- **Comprehensive Learning** - 42 Java + 61 Python tutorials
+- **Beginner-Friendly Learning** - 25 Java + 25 Python tutorials designed for educational comparison
 - **Modular Architecture** - Clean, maintainable, and extensible design
 - **Cross-Platform** - Runs seamlessly on Windows, macOS, and Linux
 - **Zero Dependencies** - Pure Java implementation, no external libraries
 - **Console Interface** - Distraction-free learning environment
-- **Organized Content** - Structured learning paths from basics to advanced topics
+- **Structured Content** - Progressive learning paths focusing on language comparison
 - **Interactive Navigation** - Easy-to-use menu system
 
 ## Prerequisites
