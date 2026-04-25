@@ -46,6 +46,12 @@ chmod +x run.sh
 
 # On Windows
 run.bat
+
+# Or run on VS Code
+Press Ctrl+Shift+P and type "Run Task"
+Select Java: Compile & Run
+Or Java: Compile Only
+Or Java: Run Only
 ```
 
 #### Python Version
@@ -58,6 +64,10 @@ python main.py
 # Or make executable (Unix/macOS/Linux)
 chmod +x main.py
 ./main.py
+
+# Or run on VS Code
+Press Ctrl+Shift+P and type "Run Task"
+Select Python: Run
 ```
 
 ## 📚 Features
