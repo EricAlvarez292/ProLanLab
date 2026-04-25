@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Programming Language Lab",
+            "request": "launch",
+            "mainClass": "com.prolanlab.Main",
+            "projectName": "prolanlab",
+            "console": "integratedTerminal",
+            "args": []
+        },
+        {
+            "type": "java",
+            "name": "Debug Programming Language Lab",
+            "request": "launch",
+            "mainClass": "com.prolanlab.Main",
+            "projectName": "prolanlab",
+            "console": "integratedTerminal",
+            "args": [],
+            "stopOnEntry": false,
+            "justMyCode": false
+        }
+    ]
+}
