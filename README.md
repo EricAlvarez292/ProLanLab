@@ -129,16 +129,6 @@ Both implementations follow a modular design pattern:
 6. Push to the branch (`git push origin feature/new-tutorial`)
 7. Create a Pull Request
 
-### Guidelines
-- Follow existing code style and naming conventions
-- Include comprehensive examples in tutorial content  
-- Test cross-platform compatibility
-- Update documentation for new features
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🎓 Learning Objectives
 
 By completing ProLanLab tutorials, learners will:
@@ -148,16 +138,4 @@ By completing ProLanLab tutorials, learners will:
 - Develop problem-solving skills through interactive exercises
 - Build confidence in cross-language programming concepts
 
-## 📞 Support
-
-For questions, issues, or contributions:
-- Create an issue in the GitHub repository
-- Review existing tutorials for examples and patterns
-- Check platform-specific README files for detailed setup instructions
-
-## 🏆 Achievement Unlocked
-**80%+ Tutorial Coverage** - Comprehensive learning materials for both Java and Python programming languages!
-
 ---
-
-*Happy Learning! 🚀*
