@@ -64,8 +64,8 @@ chmod +x main.py
 
 ### Core Modules
 - **Tutorial Module**: Comprehensive programming tutorials
-- **Quiz Module**: Interactive coding challenges and assessments  
-- **About Me Module**: Personal information and learning journey
+- **Quiz Module**: Coming Soon!
+- **About Me Module**: Coming Soon!
 
 ### Tutorial Coverage
 
