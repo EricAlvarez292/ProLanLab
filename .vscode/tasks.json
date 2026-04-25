@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Java: Compile & Run",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cd prolanlab-java && javac -d out -sourcepath src/main/java src/main/java/com/prolanlab/Main.java && java -cp out com.prolanlab.Main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Java: Compile Only",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cd prolanlab-java && javac -d out -sourcepath src/main/java src/main/java/com/prolanlab/Main.java"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Java: Run Only",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cd prolanlab-java && java -cp out com.prolanlab.Main"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Python: Run",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "cd prolanlab-python && python main.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

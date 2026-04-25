@@ -1,7 +1,3 @@
-"""
-Python Tutorial Controller - Main controller for Python tutorials
-"""
-
 from prolanlab.tutorials.python.fundamentals.python_fundamentals import PythonFundamentals
 from prolanlab.tutorials.python.controlstructures.python_control_structures import PythonControlStructures
 from prolanlab.tutorials.python.flowcontrol.python_flow_control import PythonFlowControl
@@ -24,7 +20,7 @@ class PythonTutorialController:
             self._display_python_menu()
             choice = self._get_user_choice()
             
-            # Fundamentals (1-15)
+            # Fundamentals (1-8)
             if choice == 1:
                 self.fundamentals.show_python_intro()
             elif choice == 2:
@@ -41,178 +37,82 @@ class PythonTutorialController:
                 self.fundamentals.show_python_variables()
             elif choice == 8:
                 self.fundamentals.show_python_multiple_values()
-            elif choice == 9:
-                self.fundamentals.show_python_output_variables()
-            elif choice == 10:
-                self.fundamentals.show_python_global_local()
-            elif choice == 11:
-                self.fundamentals.show_python_identifiers()
-            elif choice == 12:
-                self.fundamentals.show_python_constants()
-            elif choice == 13:
-                self.fundamentals.show_python_data_types()
-            elif choice == 14:
-                self.fundamentals.show_python_number_types()
-            elif choice == 15:
-                self.fundamentals.show_python_type_casting()
                 
-            # Control Structures (16-32)
-            elif choice == 16:
+            # Control Structures (9-16)
+            elif choice == 9:
                 self.control_structures.show_python_operators()
-            elif choice == 17:
+            elif choice == 10:
                 self.control_structures.show_python_arithmetic()
-            elif choice == 18:
-                self.control_structures.show_python_assignment()
-            elif choice == 19:
+            elif choice == 11:
                 self.control_structures.show_python_comparison()
-            elif choice == 20:
+            elif choice == 12:
                 self.control_structures.show_python_logical()
-            elif choice == 21:
-                self.control_structures.show_python_identity()
-            elif choice == 22:
-                self.control_structures.show_python_membership()
-            elif choice == 23:
-                self.control_structures.show_python_bitwise()
-            elif choice == 24:
-                self.control_structures.show_python_precedence()
-            elif choice == 25:
+            elif choice == 13:
                 self.control_structures.show_python_strings()
-            elif choice == 26:
-                self.control_structures.show_python_slicing()
-            elif choice == 27:
-                self.control_structures.show_python_concatenation()
-            elif choice == 28:
-                self.control_structures.show_python_format_strings()
-            elif choice == 29:
-                self.control_structures.show_python_escape_chars()
-            elif choice == 30:
+            elif choice == 14:
                 self.control_structures.show_python_string_methods()
-            elif choice == 31:
+            elif choice == 15:
                 self.control_structures.show_python_math_module()
-            elif choice == 32:
+            elif choice == 16:
                 self.control_structures.show_python_booleans()
                 
-            # Flow Control (33-42)
-            elif choice == 33:
+            # Flow Control & Collections (17-23)
+            elif choice == 17:
                 self.flow_control.show_python_conditions()
-            elif choice == 34:
+            elif choice == 18:
                 self.flow_control.show_python_while()
-            elif choice == 35:
+            elif choice == 19:
                 self.flow_control.show_python_for()
-            elif choice == 36:
-                self.flow_control.show_python_nested_loops()
-            elif choice == 37:
-                self.flow_control.show_python_for_each()
-            elif choice == 38:
+            elif choice == 20:
                 self.flow_control.show_python_break_continue()
-            elif choice == 39:
-                self.flow_control.show_python_tuples()
-            elif choice == 40:
+            elif choice == 21:
                 self.flow_control.show_python_lists()
-            elif choice == 41:
-                self.flow_control.show_python_sets()
-            elif choice == 42:
+            elif choice == 22:
                 self.flow_control.show_python_dictionaries()
+            elif choice == 23:
+                self.flow_control.show_python_tuples()
                 
-            # Classes & OOP (43-51)
-            elif choice == 43:
-                self.classes_and_oop.show_oop_principles()
-            elif choice == 44:
+            # Basic OOP (24-25)
+            elif choice == 24:
                 self.classes_and_oop.show_python_classes()
-            elif choice == 45:
-                self.classes_and_oop.show_python_self()
-            elif choice == 46:
-                self.classes_and_oop.show_python_methods()
-            elif choice == 47:
-                self.classes_and_oop.show_python_properties()
-            elif choice == 48:
+            elif choice == 25:
                 self.classes_and_oop.show_python_inheritance()
-            elif choice == 49:
-                self.classes_and_oop.show_python_polymorphism()
-            elif choice == 50:
-                self.classes_and_oop.show_python_encapsulation()
-            elif choice == 51:
-                self.classes_and_oop.show_python_nested_classes()
                 
-            # Advanced & Collections (52-61)
-            elif choice == 52:
-                self.data_structures.show_python_list_advanced()
-            elif choice == 53:
-                self.data_structures.show_python_dict_advanced()
-            elif choice == 54:
-                self.data_structures.show_python_set_advanced()
-            elif choice == 55:
-                self.data_structures.show_python_tuple_advanced()
-            elif choice == 56:
-                self.data_structures.show_python_comprehensions()
-            elif choice == 57:
-                self.data_structures.show_python_generators()
-            elif choice == 58:
-                self.data_structures.show_python_iterators()
-            elif choice == 59:
-                self.data_structures.show_python_decorators()
-            elif choice == 60:
-                self.data_structures.show_python_error_handling()
-            elif choice == 61:
-                self.data_structures.show_python_modules()
-                
-            elif choice == 62:
+            elif choice == 26:
                 print("Returning to tutorial menu...")
                 in_python_tutorial = False
             else:
                 print("Invalid option. Please try again.")
                 
-            if in_python_tutorial and choice != 62:
+            if in_python_tutorial and choice != 26:
                 print("\nPress Enter to continue...")
                 input()
 
     def _display_python_menu(self):
         print("\n" + "=" * 75)
-        print("                   [PYTHON] TUTORIALS")
+        print("                   [PYTHON] TUTORIALS (Beginner Focus)")
         print("=" * 75)
         print("\n【FUNDAMENTALS】")
-        print(" 1. Python Introduction & Philosophy   9. Variable Output Techniques")
-        print(" 2. Syntax & Indentation Rules        10. Global vs Local Scope")
-        print(" 3. Statements & Execution            11. Identifiers & Naming")
-        print(" 4. Print Functions                   12. Constants & Immutability")
-        print(" 5. Number Output & Formatting        13. Data Types Overview")
-        print(" 6. Comments & Documentation          14. Number Types (int, float)")
-        print(" 7. Variables & Assignment            15. Type Casting & Conversion")
-        print(" 8. Multiple Value Assignments")
+        print(" 1. Python Introduction & Philosophy   5. Number Output & Formatting")
+        print(" 2. Syntax & Indentation Rules         6. Comments & Documentation")
+        print(" 3. Statements & Execution             7. Variables & Assignment")
+        print(" 4. Print Functions                    8. Multiple Value Assignments")
         print("\n【CONTROL STRUCTURES】")
-        print("16. Operators Overview               25. String Creation")
-        print("17. Arithmetic Operations            26. String Slicing")
-        print("18. Assignment Operators             27. String Concatenation")
-        print("19. Comparison Operators             28. Format Strings (f-strings)")
-        print("20. Logical Operators                29. Escape Characters")
-        print("21. Identity Operators               30. String Methods")
-        print("22. Membership Operators             31. Math Module & Functions")
-        print("23. Bitwise Operations               32. Boolean Operations")
-        print("24. Operator Precedence")
+        print(" 9. Operators Overview                13. String Creation")
+        print("10. Arithmetic Operations             14. String Methods")
+        print("11. Comparison Operators              15. Math Module & Functions")
+        print("12. Logical Operators                 16. Boolean Operations")
         print("\n【FLOW CONTROL & COLLECTIONS】")
-        print("33. Conditional Statements           39. Tuples & Immutable Sequences")
-        print("34. While Loops & Control            40. Lists & Mutable Sequences")
-        print("35. For Loops & Iteration            41. Sets & Unique Collections")
-        print("36. Nested Loop Structures           42. Dictionaries & Key-Value")
-        print("37. For-each Loop Patterns")
-        print("38. Break & Continue Statements")
-        print("\n【CLASSES & OOP】")
-        print("43. OOP Principles                   48. Inheritance & super()")
-        print("44. Classes & Objects               49. Polymorphism & Duck Typing")
-        print("45. Self Parameter                  50. Encapsulation & Private")
-        print("46. Methods (instance, class)       51. Inner/Nested Classes")
-        print("47. Properties & Decorators")
-        print("\n【ADVANCED TOPICS】")
-        print("52. Advanced Lists                  58. Iterators & Protocols")
-        print("53. Advanced Dictionaries           59. Decorators & Functions")
-        print("54. Advanced Sets                   60. Error Handling & Exceptions")
-        print("55. Advanced Tuples                 61. Modules & Packages")
-        print("56. List/Dict Comprehensions")
-        print("57. Generators & yield")
+        print("17. Conditional Statements            21. Lists & Mutable Sequences")
+        print("18. While Loops & Control             22. Dictionaries & Key-Value")
+        print("19. For Loops & Iteration             23. Tuples & Immutable Sequences")
+        print("20. Break & Continue Statements")
+        print("\n【BASIC OOP】")
+        print("24. Classes & Objects                 25. Basic Inheritance")
         print()
-        print("62. << Back to Tutorial Menu")
+        print("26. << Back to Tutorial Menu")
         print("=" * 75)
-        print("Enter your choice (1-62): ", end="")
+        print("Enter your choice (1-26): ", end="")
 
     def _get_user_choice(self):
         try:

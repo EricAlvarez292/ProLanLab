@@ -1,15 +1,15 @@
-# Programming Language Lab
+# Programming Language Lab - Java Version
 
-A comprehensive console-based tutorial system for learning programming languages with **103 interactive tutorials** covering Java and Python.
+A comprehensive console-based tutorial system for learning programming languages with **50 interactive tutorials** covering Java and Python (beginner-focused approach).
 
 ## Features
 
-- **Comprehensive Learning** - 42 Java + 61 Python tutorials
+- **Beginner-Friendly Learning** - 25 Java + 25 Python tutorials designed for educational comparison
 - **Modular Architecture** - Clean, maintainable, and extensible design
 - **Cross-Platform** - Runs seamlessly on Windows, macOS, and Linux
 - **Zero Dependencies** - Pure Java implementation, no external libraries
 - **Console Interface** - Distraction-free learning environment
-- **Organized Content** - Structured learning paths from basics to advanced topics
+- **Structured Content** - Progressive learning paths focusing on language comparison
 - **Interactive Navigation** - Easy-to-use menu system
 
 ## Prerequisites
@@ -86,7 +86,7 @@ A comprehensive console-based tutorial system for learning programming languages
 ```cmd
 # Clone or download the project
 git clone <repository-url>
-cd prolanlab
+cd prolanlab-java
 
 # Run the program (compiles and starts automatically)
 run.bat
@@ -95,7 +95,7 @@ run.bat
 #### Method 2: Manual Compilation
 ```cmd
 # Navigate to project directory
-cd prolanlab
+cd prolanlab-java
 
 # Compile all Java files
 javac -d out -cp src/main/java src/main/java/com/prolanlab/*.java src/main/java/com/prolanlab/**/*.java src/main/java/com/prolanlab/**/**/*.java
@@ -107,7 +107,7 @@ java -cp out com.prolanlab.Main
 #### Method 3: PowerShell (Alternative)
 ```powershell
 # Compile and run in PowerShell
-cd prolanlab
+cd prolanlab-java
 javac -d out -sourcepath src/main/java src/main/java/com/prolanlab/Main.java
 java -cp out com.prolanlab.Main
 ```
@@ -118,7 +118,7 @@ java -cp out com.prolanlab.Main
 ```bash
 # Clone or download the project
 git clone <repository-url>
-cd prolanlab
+cd prolanlab-java
 
 # Make script executable and run
 chmod +x run.sh
@@ -128,7 +128,7 @@ chmod +x run.sh
 #### Method 2: Manual Compilation
 ```bash
 # Navigate to project directory
-cd prolanlab
+cd prolanlab-java
 
 # Compile all Java files
 javac -d out -cp src/main/java $(find src/main/java -name "*.java")
@@ -139,7 +139,7 @@ java -cp out com.prolanlab.Main
 
 ## Learning Modules
 
-### Java Tutorial (42 Comprehensive Topics)
+### Java Tutorial (25 Beginner-Focused Topics)
 
 **Fundamentals (8 topics):**
 - Java Introduction & Concepts
@@ -151,46 +151,32 @@ java -cp out com.prolanlab.Main
 - Type Casting & Conversion
 - Operators & Expressions
 
-**Control Structures (8 topics):**
+**Control Structures (7 topics):**
 - String manipulation
 - Math operations
 - Boolean logic
 - Conditional statements (if-else)
-- Switch statements
 - While loops
 - For loops  
 - Break & Continue
 
-**Classes & OOP (11 topics):**
+**Basic OOP (7 topics):**
 - Object-Oriented Programming concepts
+- Classes & Objects
+- Attributes
 - Methods & Functions
 - Constructors & Initialization
-- Method Overloading
-- Inheritance & Extends
-- Polymorphism & Overriding
-- Encapsulation & Access Modifiers
-- Abstraction & Abstract Classes
-- Static members
-- Final keyword
-- Inner Classes
+- Basic Inheritance
+- Access Modifiers
 
-**Data Structures (14 topics):**
-- Data structures overview
-- Arrays & Multi-dimensional Arrays
+**Essential Collections (3 topics):**
+- Arrays & Basic Operations
 - ArrayList & Dynamic Arrays
-- HashMap & Key-Value Storage
-- HashSet & Unique Collections
-- LinkedList & Node-based Storage
-- Stack & LIFO Operations
-- Queue & FIFO Operations
-- Tree structures
-- Heap data structure
-- Graph representations
-- Algorithm implementations
+- Basic Collections Overview
 
-### Python Tutorial (61 Comprehensive Topics)
+### Python Tutorial (25 Beginner-Focused Topics)
 
-**Fundamentals (15 topics):**
+**Fundamentals (8 topics):**
 - Python Introduction & Philosophy
 - Syntax & Indentation Rules
 - Statements & Execution
@@ -199,72 +185,35 @@ java -cp out com.prolanlab.Main
 - Comments & Documentation
 - Variables & Assignment
 - Multiple value assignments
-- Variable output techniques
-- Global vs Local scope
-- Identifiers & Naming conventions
-- Constants & Immutability
-- Data types overview
-- Number types (int, float, complex)
-- Type casting & Conversion
 
-**Control Structures (17 topics):**
+**Control Structures (8 topics):**
 - Operators overview
 - Arithmetic operations
-- Assignment operators
 - Comparison operators  
 - Logical operators (and, or, not)
-- Identity operators (is, is not)
-- Membership operators (in, not in)
-- Bitwise operations
-- Operator precedence rules
 - String creation & manipulation
-- String slicing techniques
-- String concatenation
-- Format strings (f-strings)
-- Escape characters
 - String methods
 - Math module & functions
 - Boolean operations
 
-**Flow Control & Collections (10 topics):**
+**Flow Control & Collections (7 topics):**
 - Conditional statements (if-elif-else)
 - While loops & control
 - For loops & iteration
-- Nested loop structures
-- For-each loop patterns
 - Break & Continue statements
-- Tuples & immutable sequences
 - Lists & mutable sequences
-- Sets & unique collections
 - Dictionaries & key-value pairs
+- Tuples & immutable sequences
 
-**Classes & OOP (9 topics):**
-- Object-Oriented Programming principles
+**Basic OOP (2 topics):**
 - Classes & Objects creation
-- Self parameter & instance reference
-- Methods (instance, class, static)
-- Properties & decorators
-- Inheritance & super()
-- Polymorphism & duck typing
-- Encapsulation & private attributes
-- Inner/Nested classes
-
-**Data Structures (9 topics):**
-- Lists, Arrays & NumPy
-- Stack implementation & applications
-- Queue types (FIFO, Priority, Circular)
-- Linked Lists (Singly & Doubly)
-- Hash Tables & collision handling
-- Tree structures & traversal
-- Binary Trees & Binary Search Trees
-- Graph representation & algorithms
-- Algorithm implementations (sorting, searching, dynamic programming)
+- Basic Inheritance
 
 ### Quiz Module
-Interactive quizzes to test your knowledge (Available)
+Coming Soon!
 
 ### About Module  
-Information about the Programming Language Lab (Available)
+Coming Soon!
 
 ## Project Structure
 
@@ -279,23 +228,23 @@ prolanlab/
 │   │   │   ├── fundamentals/
 │   │   │   │   └── JavaFundamentals.java     # Java basics (8 tutorials)
 │   │   │   ├── controlstructures/
-│   │   │   │   └── JavaControlStructures.java # Control flow (8 tutorials)  
+│   │   │   │   └── JavaControlStructures.java # Control flow (7 tutorials)  
 │   │   │   ├── classesandoop/
-│   │   │   │   └── JavaClassesAndOOP.java    # OOP concepts (11 tutorials)
+│   │   │   │   └── JavaClassesAndOOP.java    # Basic OOP (7 tutorials)
 │   │   │   └── datastructures/
-│   │   │       └── JavaDataStructures.java   # Data structures (14 tutorials)
+│   │   │       └── JavaDataStructures.java   # Essential collections (3 tutorials)
 │   │   │
 │   │   └── python/                        # Python tutorial modules
 │   │       ├── fundamentals/
-│   │       │   └── PythonFundamentals.java   # Python basics (15 tutorials)
+│   │       │   └── PythonFundamentals.java   # Python basics (8 tutorials)
 │   │       ├── controlstructures/  
-│   │       │   └── PythonControlStructures.java # Operators & strings (17 tutorials)
+│   │       │   └── PythonControlStructures.java # Control structures (8 tutorials)
 │   │       ├── flowcontrol/
-│   │       │   └── PythonFlowControl.java    # Loops & collections (10 tutorials)
+│   │       │   └── PythonFlowControl.java    # Flow control & collections (7 tutorials)
 │   │       ├── classesandoop/
-│   │       │   └── PythonClassesAndOOP.java  # OOP in Python (9 tutorials)
+│   │       │   └── PythonClassesAndOOP.java  # Basic OOP (2 tutorials)
 │   │       └── datastructures/
-│   │           └── PythonDataStructures.java # Advanced DS (9 tutorials)
+│   │           └── PythonDataStructures.java # Advanced DS (removed in beginner focus)
 │   │
 │   ├── quizzes/
 │   │   └── QuizModule.java                   # Interactive quiz system

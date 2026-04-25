@@ -46,6 +46,12 @@ chmod +x run.sh
 
 # On Windows
 run.bat
+
+# Or run on VS Code
+Press Ctrl+Shift+P and type "Run Task"
+Select Java: Compile & Run
+Or Java: Compile Only
+Or Java: Run Only
 ```
 
 #### Python Version
@@ -58,6 +64,10 @@ python main.py
 # Or make executable (Unix/macOS/Linux)
 chmod +x main.py
 ./main.py
+
+# Or run on VS Code
+Press Ctrl+Shift+P and type "Run Task"
+Select Python: Run
 ```
 
 ## 📚 Features
@@ -69,18 +79,17 @@ chmod +x main.py
 
 ### Tutorial Coverage
 
-#### Java Topics (42 topics)
-- **Fundamentals**: Variables, data types, operators
-- **Control Structures**: Loops, conditionals, branching
-- **Data Structures**: Arrays, collections, maps
-- **Classes & OOP**: Inheritance, polymorphism, encapsulation
+#### Java Topics (25 beginner-focused topics)
+- **Fundamentals**: Variables, data types, operators, basic syntax
+- **Control Structures**: Loops, conditionals, strings, math
+- **Basic OOP**: Classes, objects, methods, simple inheritance
+- **Essential Collections**: Arrays, ArrayList, basic collections
 
-#### Python Topics (61 topics)
-- **Fundamentals**: Variables, data types, operators
-- **Flow Control**: Loops, conditionals, exception handling
-- **Control Structures**: Advanced control flow patterns
-- **Data Structures**: Lists, dictionaries, sets, tuples
-- **Classes & OOP**: Classes, inheritance, special methods
+#### Python Topics (25 beginner-focused topics)
+- **Fundamentals**: Variables, data types, operators, basic syntax
+- **Control Structures**: Operators, strings, math, booleans
+- **Flow Control**: Conditionals, loops, lists, dictionaries, tuples
+- **Basic OOP**: Classes, objects, simple inheritance
 
 ### Interactive Features
 - **Step-by-step tutorials** with code examples
@@ -107,17 +116,16 @@ Both implementations follow a modular design pattern:
 ## 📋 Available Tutorials
 
 ### Java Programming Path
-1. **Java Fundamentals** - Variables, operators, basic syntax
-2. **Java Control Structures** - Loops, conditionals, method control
-3. **Java Data Structures** - Arrays, ArrayList, HashMap usage
-4. **Java Classes & OOP** - Object-oriented programming concepts
+1. **Java Fundamentals** - Variables, operators, basic syntax (8 topics)
+2. **Java Control Structures** - Loops, conditionals, strings, math (7 topics)
+3. **Java Basic OOP** - Classes, objects, methods, inheritance (7 topics)
+4. **Java Essential Collections** - Arrays, ArrayList, basic collections (3 topics)
 
 ### Python Programming Path
-1. **Python Fundamentals** - Variables, operators, basic syntax
-2. **Python Flow Control** - Exception handling, context managers
-3. **Python Control Structures** - Advanced loops and conditionals
-4. **Python Data Structures** - Lists, dicts, sets, comprehensions
-5. **Python Classes & OOP** - Classes, inheritance, magic methods
+1. **Python Fundamentals** - Variables, operators, basic syntax (8 topics)
+2. **Python Control Structures** - Operators, strings, math, booleans (8 topics)
+3. **Python Flow Control & Collections** - Conditionals, loops, collections (7 topics)
+4. **Python Basic OOP** - Classes, objects, inheritance (2 topics)
 
 ## 🤝 Contributing
 
